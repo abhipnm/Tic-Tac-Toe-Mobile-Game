@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/again"
+    tools:context="com.example.lenovo.tictactoeupdated.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/b1"
+            android:textColor="#FF0000"
+            android:rotation="35"
+            android:background="@drawable/select"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="15"
+            android:textSize="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="MUSIC" />
+        <Button
+            android:id="@+id/b2"
+            android:textSize="50dp"
+            android:textColor="#FF0000"
+            android:rotation="-35"
+            android:background="@drawable/select"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="15"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="ABOUT" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/b3"
+            android:background="@drawable/select"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:rotation="-35"
+            android:shadowRadius="15"
+            android:textColor="#FF0000"
+            android:textSize="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="CREDITS" />
+        <Button
+            android:id="@+id/b4"
+            android:rotation="35"
+            android:background="@drawable/select"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="15"
+            android:textSize="65dp"
+            android:textColor="#FF0000"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="EXIT" />
+    </LinearLayout>
+</LinearLayout>

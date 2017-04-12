@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:text=" The Objective of TIC TAC TOE is to get three same symbols in a row, column or diagonal. You play on a 3 X 3 game board. The first player is known as X and the second is known as 0. Players alternate placing Xs and 0s on the game board until either one of the player has made three in a row, column, or diagonal or all the nine squares are filled. X always goes first. In the event that no one has three in a row, column or diagonal the stalemate is called CAT GAME."
+        android:textSize="25dp"
+        android:background="@drawable/water"
+        android:textColor="#000000"
+        android:id="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText2"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="about the game"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:background="#c0c0c0"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+</RelativeLayout>
